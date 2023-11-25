@@ -44,6 +44,14 @@ var array = [
       des: 'show something',
       trangthai: 'Thành Công',
       thoigian: '14/11/2023|22:03',
+    },{
+      image: require('/Image/sieucap.jpg'),
+      noinhan: 'NHA KHOA THANH BÌNH, Đường số 1, phường 10, Tân Bình, Thành phố Hồ Chí Minh',
+      price: "27.000đ",
+      noigiao:'131 Trịnh Đình Trọng, Phú Trung, Tân Phú, Thành phố Hồ Chí Minh',
+      des: 'show something',
+      trangthai: 'Thành Công',
+      thoigian: '14/11/2023|22:03',
     }
   ];
 function DaDat() {

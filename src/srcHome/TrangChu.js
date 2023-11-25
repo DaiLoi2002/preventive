@@ -15,6 +15,7 @@ const images = [
 const WIDTH=Dimensions.get("window").width;
 const HEIGHT=Dimensions.get("window").height;
 const TrangChu = () => {
+  const[navigation,useNavigation]=useState();
   const [ThoiGian, setThoiGian] = useState();
   const [NoiNhan, setNoiNhan] = useState();
   const [NoiGiao, setNoiGiao] = useState();
@@ -76,7 +77,7 @@ const TrangChu = () => {
         </View>
          </View>
          <View style={styles.mid}>
-          <Pressable style={styles.buttondathang}  >
+          <Pressable style={styles.buttondathang}   onPress={() => navigation.navigate('HomeScreen')}>
             <Image source={require("../Image/mid3.jpg")} style={styles.imgbutton}/>
             <Text style={{fontWeight:700}}>Giao hàng</Text>
           </Pressable>

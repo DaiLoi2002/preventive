@@ -7,6 +7,7 @@ import DangKi from './src/DangKi';
 import DangNhap from './src/DangNhap';
 import Home from './src/Home';
 import GiaoHang from './src/GiaoHang';
+import HomeScreen from './src/GiaoHang';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,7 +22,7 @@ function App() {
         <Stack.Screen name="DangKi" component={DangKi} options={{headerShown: false}} />
         
         <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
-        <Stack.Screen name="GiaoHang" component={GiaoHang} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
